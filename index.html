@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h2>Computer-1</h2>
+    </div>
+
+    <div class="val_form"> 
+     <form action="">
+        <div class="form_row">
+            <label>Ram Size : </label>
+            <select id="ram-size" required>
+                <option value="4096 16">select</option>
+                <option value="4096 16">4096 X 16</option>
+            </select>
+       
+            <label>PC Value : </label>
+            <input type="text" id="pc-value" required value="0000">
+        
+            <label>Frequency Of Clock : </label>
+            <input type="text" id="clock-speed" required placeholder="Frequency in Hertz">
+        </div>
+        <div class="form_row">
+            <label >Program : </label><br>
+            <textarea rows="4" cols="35" id="program" required placeholder="Address Value"></textarea>
+        </div>   
+        <div class="simulate-btn">
+            <input type="button" value="Simulate" id="simulate" > 
+        </div>
+        
+        </form>
+    </div>
+    
+
+    <div class="container">
+        <div class="val_row">
+            <div class="val_col">AR</div>
+            <div class="val_col">PC</div>
+            <div class="val_col">DR</div>
+            <div class="val_col">AC</div>
+            <div class="val_col">IR</div>
+            <div class="val_col">TR</div>
+        </div>
+        <div class="con">
+
+        </div>
+    </div>
+
+    <div class="header">
+        <h2>CAO@GL01</h2>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
